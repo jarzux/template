@@ -83,5 +83,3 @@ production:
   database: template_production
   username: template
   password: <%= ENV['TEMPLATE_DATABASE_PASSWORD'] %>
-  host: 127.0.0.1
-  port: 3306
